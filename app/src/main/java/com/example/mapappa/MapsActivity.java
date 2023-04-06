@@ -112,7 +112,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
     }
 
-    //bila di klik lama akana memunculkan data
+
     private void setMapOnClick(final GoogleMap map){
         map.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener() {
             @Override
@@ -134,6 +134,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         });
     }
 
+    //bila di klik lama akana memunculkan data
     private void setPoiClicked(final GoogleMap map){
         map.setOnPoiClickListener(new GoogleMap.OnPoiClickListener() {
             @Override
